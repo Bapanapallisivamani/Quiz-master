@@ -1,0 +1,37 @@
+name: quizmaster
+description: "A modern Material 3 Android Quiz Application built with Flutter & Dart for IITM Pravartak and BodhBridge Flutter Lab - KHIT Guntur"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Data Persistence
+  shared_preferences: ^2.2.3
+
+  # Icons and Typography
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+  # Date formatting for quiz history
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets configuration
+  assets:
+    - assets/images/
